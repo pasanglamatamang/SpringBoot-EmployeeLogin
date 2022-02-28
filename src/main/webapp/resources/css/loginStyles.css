@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins&family=Syne:wght@500;700&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap')
+	;
+
+@font-face {
+	font-family: 'Gilroy-Bold ☞';
+	font-style: normal;
+	font-weight: normal;
+	src: url('Gilroy-Bold.woff') format('woff');
+}
+
+body {
+	font-family: Jost;
+	font-size: 16px;
+	line-height: 1.5;
+	background-image: linear-gradient(96.5deg, rgba(39, 103, 187, 1) 10.4%,
+		rgba(16, 72, 144, 1) 87.7%); 
+/*
+background: #396afc; 
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  
+background: linear-gradient(to right, #2948ff, #396afc);  */
+
+
+
+		
+	margin: 120px auto 120px auto;
+}
+
+.signupbox {
+	width: 320px;
+	height: auto;
+	margin: auto;
+	background: #ECF0FB; border-radius : 8px;
+	box-shadow: 0 0 10px 0 #1A1D1F;
+	border-radius: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	width: 250px;
+	margin: 30px;
+	padding: 8px 0 8px 0;
+}
+
+form label {
+	display: flex;
+	margin: 6px;
+	font-size: 16px;
+}
+
+form input {
+	width: 100%;
+	padding: 8px;
+	border: none;
+	border-radius: 12px;
+}
+
+/*input[type="text"]{
+	box-shadow: 0 0 3px 0 #90a0ac;
+	}
+	
+input[type="password"]{
+	box-shadow: 0 0 4px 0 #a9bbcc;
+	}  */
+input[type="submit"] {
+	background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+	color: white;
+	width: 268px;
+	margin-top: 30px;
+	/*margin-left: 10px;*/
+	/*margin-bottom: 5px;*/
+	font-size: 16px;
+	align-items: center;
+}
+
+input[type="submit"]:hover {
+	background-color: #FBAB7E;
+	background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+	cursor: pointer;
+}
+
+h5 {
+	text-align: center;
+	font-size: 16px;
+}
+
+a.signupLink {
+	text-decoration: underline;
+	color: #315DAC;
+}
+
+a.signupLink:hover {
+	text-decoration: underline red;
+}
+
+a.showUsersLink {
+	text-decoration: underline;
+	color: #486095;
+}
+
+a.showUsersLink:hover {
+	text-decoration: underline red;
+}
+
+input[type="text"]:focus{
+	border: 1px solid #1F55A8;
+	outline: none;
+}
+
+input[type="password"]:focus{
+	border: 1px solid #1F55A8;
+	outline: none;
+}
+
+.forgotPasswordStyle {
+	padding-top: 5px;
+	margin-left: 115px;
+	size: 14px;
+	color: grey;
+}
+
+.forgotPasswordStyle:hover {
+	color: #2159AE;
+}
+
+.input-icons i {
+	position: absolute;
+	color:red;
+}
+
+.input-icons {
+	width: 100%;
+	margin-bottom: 10px;
+	
+}
+
+.icon {
+	padding: 10px;
+	min-width: 40px;
+	
+}
+
+.input-field {
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+	text-indent: 23px;
+}
+
+
+.input-field[name="employeeId"] {
+  color: Red;
+}

@@ -1,0 +1,17 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(Ğ¿´¬üÿÿÿÿ
+T
+java:S47190"9Replace charset name argument with StandardCharsets.UTF_8(…š‘¾ÿÿÿÿÿ
+^
+java:S24417"AMake "EmployeeDTO" serializable or don't store it in the session.(óˆñÄ8ù¾ŠŒô/
+T
+java:S4719V"9Replace charset name argument with StandardCharsets.UTF_8(…š‘¾ÿÿÿÿÿ
+T
+java:S4719r"9Replace charset name argument with StandardCharsets.UTF_8(…š‘¾ÿÿÿÿÿ
+W	java:S125’"<This block of commented-out lines of code should be removed.(Íã¡Ÿüÿÿÿÿ
+d
+java:S1128"GRemove this unused import 'org.springframework.mail.SimpleMailMessage'.(€·ÊŒ8ƒ¿ŠŒô/
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8ƒ¿ŠŒô/
+a
+java:S11920"FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(…š‘¾ÿÿÿÿÿ

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: pasanglamatamang
+Build-Jdk: 11.0.11
+Implementation-Title: SpringBootJPA1-employeedb2-Image
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: SpringJPAImage
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/SpringBootJPA1-employeedb2-Image
+Created-By: Maven Integration for Eclipse
+
